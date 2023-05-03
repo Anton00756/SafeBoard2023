@@ -30,6 +30,7 @@
 POST /search.
 
 Пример тела запроса:
+
 ![JSON](https://ucarecdn.com/159cea28-30f0-4277-b86c-ef1c2a922966/)
 
 где:
@@ -40,6 +41,7 @@ POST /search.
 - size.operator, creation_time.operator — одно из значений: eq, gt, lt, ge, le. Значения соответствуют операторам сравнения "равно", "больше", "меньше", "больше или равно", "меньше или равно".
 
 Пример ответа:
+
 ![JSON](https://ucarecdn.com/3a65b203-0a7f-4edc-979f-c0a0aee04085/)
 
 ### Получить результаты поиска
@@ -47,10 +49,13 @@ POST /search.
 GET /searches/<search_id>
 
 Пример ответа с успешным поиском:
+
 ![JSON](https://ucarecdn.com/4c6012bb-7d07-4092-a8eb-1357089687f9/)
 
 Пример ответа, если ничего не найдено:
+
 ![JSON](https://ucarecdn.com/2b99a962-fd2e-4423-9433-68446767a4b0/)
 
 Пример ответа, если поиск ещё не завершился:
+
 ![JSON](https://ucarecdn.com/7443fad2-f9d3-4727-a98f-55de6237189c/)
